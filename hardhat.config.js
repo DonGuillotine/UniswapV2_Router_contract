@@ -7,7 +7,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: process.env.ALCHEMY_MAINNET_RPC_URL,
+        url: process.env.LISK_SEPOLIA_RPC_URL,
       },
     },
   },
